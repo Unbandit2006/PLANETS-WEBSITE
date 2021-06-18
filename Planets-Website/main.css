@@ -1,0 +1,50 @@
+html {
+    height: 700px;
+    width: 900px;
+}
+
+#desc_frame{
+    position: absolute;
+    left: 540px;
+    top: 70px;
+    height: 420px;
+    width: 315px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+#drop {
+    position: absolute;
+    left: 270px;
+    top: 7px;
+    width: 90px;
+    height: 35px; 
+}
+
+#fact_frame {
+    position: absolute;
+    background-color: rgb(18, 18, 18);
+    left: 45px;
+    top: 504px;
+    width: 810px;
+    height: 140px;
+    color: white;
+}
+
+#button {
+    position: absolute;
+    left: 360px;
+    top: 7px;
+    width: 90px;
+    height: 35px;
+}
+
+#image_frame {
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    left: 45px;
+    top: 70px;
+    width: 400px;
+    height: 400px;
+    color: white;
+}

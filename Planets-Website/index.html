@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Terra Planets</title>
+        <link rel="stylesheet" href="main.css"/>
+        <script src='main.js'></script>
+    </head>
+    
+    <body>
+        <header>
+            <select id='drop'>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option selected>Earth</option>
+                <option>Mars</option>
+                <option>Jupiter</option>
+                <option>Saturn</option>
+                <option>Uranus</option>
+                <option>Neptune</option>
+            </select>
+            <button id='button' onclick="Planet()">Get Info</button>
+        </header>
+        
+        <section>
+            <div id='image_frame'>Image</div>
+            <div id= desc_frame>Info</div>
+        </section>
+        
+        <footer id='fact_frame'>Fun Fact of the Planet</footer>
+    </body>
+</html>

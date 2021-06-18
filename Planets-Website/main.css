@@ -1,6 +1,8 @@
 html {
     height: 700px;
     width: 900px;
+    background-color: rgb(23, 23, 23);
+
 }
 
 #desc_frame{
